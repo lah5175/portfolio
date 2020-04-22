@@ -1,38 +1,124 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+html {
+  background-color: #550527;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #A10702;
+  height: 50px;
+  width: 100%;
+}
+
+#navbar a {
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#navbar .active {
+  text-decoration: underline;
+  text-decoration-color: #FAA613;
+}
+
+#home-intro {
+  background-color: #FAA613;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#home-intro div {
+  width: 50%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#home-about {
+  background-color: #688E26;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+#home-about p {
+  width: 60%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#home-experience {
+  background-color: #A10702;
+}
+
+#home-blog {
+  background-color: #FAA613;
+}
+
+#home-contact {
+  background-color: #F44708;
+}
+
+.home-divs h1, .home-divs h2 {
+  margin: 0px;
+}
+
+.home-divs {
+  width: 80%;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#home-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-link {
+  background-color: #550527;
+  color: #FAA613;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+#about-container {
+  background-color: #688E26;
+  width: 80%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about-container div {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+#about-p1 {
+  width: 50%;
 }

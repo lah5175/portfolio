@@ -5,6 +5,7 @@
 
 h1 {
   font-size: 70px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 h2 {
@@ -28,6 +29,7 @@ html {
   background-color: #A10702;
   height: 50px;
   width: 100%;
+  border-bottom: 2px solid #FAA613;
 }
 
 #navbar a {
@@ -43,14 +45,23 @@ html {
 }
 
 #home-intro {
-  background-color: #FAA613;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/red-banner.jpeg');
+  object-fit: cover;
+  color: white;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  background-attachment: fixed;
+  height: 400px;
 }
 
 #home-intro div {
   width: 50%;
   text-align: center;
+}
+
+#home-intro h2 {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 #home-about {
@@ -121,4 +132,78 @@ html {
 
 #about-p1 {
   width: 50%;
+}
+
+#project-thumbnails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#project-thumbnails div {
+  display: flex;
+  flex-direction: column;
+}
+
+.etr-flip {
+  position: relative;
+  height: 600px;
+  width: 325px;
+  background-color: transparent;
+  perspective: 1000px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  text-align: center;
+}
+
+.shady-duck-flip {
+  position: relative;
+  height: 300px;
+  width: 533.32px;
+  background-color: transparent;
+  perspective: 1000px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  text-align: center;
+}
+
+.etr-flip:hover, .shady-duck-flip:hover {
+  transform: rotateY(180deg);
+}
+
+.etr-front, .etr-back, .shady-duck-front, .shady-duck-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.etr-back, .shady-duck-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.etr-back h3 {
+  margin-top: 250px;
+}
+
+.shady-duck-back h3 {
+  margin-top: 100px;
+}
+
+.shady-duck {
+  height: 300px;
+  width: auto;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
+}
+
+.shady-duck-flip img, .shady-duck-flip div {
+  margin: 0px;
 }

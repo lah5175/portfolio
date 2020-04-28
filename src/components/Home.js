@@ -21,7 +21,32 @@ const Home = props => {
       </div>
 
       <div id="home-experience" className="home-divs">
-        <h2>Experience</h2>
+        <h2>Projects</h2>
+        <div id="project-thumbnails">
+          <div className="etr-flip">
+            <img className="etr-front" src="/escapetheroomthumbnail.png" alt="Escape the Room AR" />
+            <div className="etr-back">
+              <h3>Escape the Room AR</h3>
+              <p>Click to find out more!</p>
+            </div>
+          </div>
+          <div id="shady-duck-container">
+            <div className="shady-duck-flip">
+              <img className="shady-duck shady-duck-front" src="/shadyglenthumbnail.png" alt="Shady Glen" />
+              <div className="shady-duck-back">
+                <h3>Shady Glen</h3>
+                <p>Click to find out more!</p>
+              </div>
+            </div>
+            <div className="shady-duck-flip">
+              <img className="shady-duck shady-duck-front" src="/wtdthumbnail.png" alt="What the Duck" />
+              <div className="shady-duck-back">
+                <h3>What the Duck</h3>
+                <p>Click to find out more!</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="home-blog" className="home-divs">

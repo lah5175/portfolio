@@ -7,7 +7,7 @@ const Navbar = props => {
       <NavLink exact to="/">Home</NavLink>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/portfolio">Portfolio</NavLink>
-      <NavLink exact to="/">Blog</NavLink>
+      <a href="https://lhashdevblog.wordpress.com/">Blog</a>
       <NavLink to='/contact'>Contact</NavLink>
     </div>
   )

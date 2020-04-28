@@ -12,6 +12,10 @@ h2 {
   font-size: 40px;
 }
 
+h3 {
+  font-size: 32px;
+}
+
 html {
   background-color: #550527;
 }
@@ -206,4 +210,12 @@ html {
 
 .shady-duck-flip img, .shady-duck-flip div {
   margin: 0px;
+}
+
+#contact-container {
+  background-color: #FAA613;
+  margin-top: 50px;
+  width: 60%;
+  height: 1000px;
+  text-align: center;
 }

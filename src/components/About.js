@@ -3,16 +3,20 @@ import React from 'react';
 const About = props => {
   return (
     <div id="about-container">
-      <h2>About Me</h2>
+      <h1>About Me</h1>
       <div>
-        <p id="about-p1">Ever since I attended my first Global Game Jam in college, I have had a passion for
-          programming all sorts of applications. That is why, after graduating in 2017 with an
-          associate's degree in Computer Networking, I decided to turn my focus to coding. In 2020, 
-          I attended the Grace Hopper immersive coding bootcamp at Fullstack Academy in NYC where
-          I discovered that, with the right tools and my own creativity, I can make whatever I 
-          set my mind to!
-        </p>
-        <img src="/me.jpg" alt="Me" />
+        <div id="about-p1">
+          <p>Ever since I attended my first Global Game Jam in college, I have had a passion for
+            programming all sorts of applications. That is why, after graduating in 2017 with an
+            associate's degree in Computer Networking, I decided to turn my focus to coding. In 2020, 
+            I attended the Grace Hopper immersive coding bootcamp at Fullstack Academy in NYC where
+            I discovered that, with the right tools and my own creativity, I can make whatever I 
+            set my mind to!
+          </p>
+        </div>
+        <div id="about-pic">
+          <img src="/me.jpg" alt="Me" />
+        </div>
       </div>
       <div>
         <p>I am an avid gamer and I enjoy creating interactive experiences in all of the apps that

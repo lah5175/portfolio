@@ -1,10 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Portfolio = props => {
   return (
     <div id="portfolio-container">
       <h1>Portfolio</h1>
-      <div id="portfolio-etr" className="portfolio-div">
+      <Link to="/portfolio/ETR" id="portfolio-etr" className="portfolio-div">
         <div className="portfolio-description">
           <h2>Escape the Room AR</h2>
           <h3>An augmented reality game for iOS and Android devices!</h3>
@@ -15,9 +16,9 @@ const Portfolio = props => {
         <div className="portfolio-img-div">
           <img src="/escapetheroomthumbnail.png" />
         </div>
-      </div>
+      </Link>
 
-      <div id="portfolio-sg" className="portfolio-div">
+      <Link to="/portfolio/ShadyGlen" id="portfolio-sg" className="portfolio-div">
         <div className="portfolio-description">
           <h2>Shady Glen</h2>
           <h3>A 3D Fantasy Sandbox for PC!</h3>
@@ -29,9 +30,9 @@ const Portfolio = props => {
         <div className="portfolio-img-div">
           <img src="/shadyglenthumbnail.png" />
         </div>
-      </div>
+      </Link>
 
-      <div id="portfolio-wtd" className="portfolio-div">
+      <Link to="/portfolio/WTD" id="portfolio-wtd" className="portfolio-div">
         <div className="portfolio-description">
           <h2>What the Duck</h2>
           <h3>An e-commerce site that specializes in rubber ducks!</h3>
@@ -43,7 +44,7 @@ const Portfolio = props => {
         <div className="portfolio-img-div">
           <img src="/wtdthumbnail.png" />
         </div>
-      </div>
+      </Link>
     </div>
   )
 }

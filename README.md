@@ -1,4 +1,4 @@
-#Lauren Hash's Portfolio Site
+# Lauren Hash's Portfolio Site
 
 This is a working repository for my portfolio site, currently deployed at https://lhashportfolio.herokuapp.com/ .
 

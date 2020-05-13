@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = props => {
   return (
     <div id="contact-container">
-      <h2>Contact Me</h2>
+      <h1>Contact Me</h1>
       <h3>Interested in a project? Contact me through...</h3>
 
       <h3>Email</h3>

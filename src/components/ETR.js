@@ -10,10 +10,10 @@ const ETR = props => {
         src="https://www.youtube.com/embed/3oj4ZygufGk" 
         frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
+        allowFullScreen>
       </iframe>
 
-      <a href="https://bit.ly/3bV1wgr">Visit Project Github</a>
+      <a className="single-proj-link" href="https://bit.ly/3bV1wgr">Visit Project Github</a>
 
       <div className="devs">
         <h2>Developers</h2>

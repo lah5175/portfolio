@@ -6,8 +6,8 @@ const WTD = props => {
       <h1>What the Duck</h1>
       <img src="/wtdthumbnail.png" alt="What the Duck?" width="854" height="480"/>
 
-      <a href="https://what-da-duck.herokuapp.com/">Visit Deployed Site</a>
-      <a href="https://bit.ly/33nrGVO">Visit Project Github</a>
+      <a className="single-proj-link" href="https://what-da-duck.herokuapp.com/">Visit Deployed Site</a>
+      <a className="single-proj-link" href="https://bit.ly/33nrGVO">Visit Project Github</a>
 
       <div className="devs">
         <h2>Developers</h2>

@@ -27,8 +27,9 @@ const About = props => {
       </div>
 
       <h3>Proficiencies</h3>
-      <p>Knowledgeable: Javascript, React.js, Redux, CSS, HTML</p>
-      <p></p>
+      <p>Proficient: Javascript, Node.js, Sequelize, React.js, Redux, Express, Git, Github, HTML, CSS</p>
+      <p>Knowledgeable: Cisco, Mocha, Chai, ViroAR, Unity</p>
+      <p>Some Experience: React-Native, Firebase, C#, SQL, Heroku, Travis, Java, C</p>
     </div>
   )
 }

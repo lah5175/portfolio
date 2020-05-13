@@ -13,7 +13,7 @@ const ShadyGlen = props => {
         allowFullScreen>
       </iframe>
 
-      <a href="https://bit.ly/2wbFGpG">Visit Project Github (Scripts Only)</a>
+      <a className="single-proj-link" href="https://bit.ly/2wbFGpG">Visit Project Github (Scripts Only)</a>
 
       <div className="devs">
         <h2>Developers</h2>
